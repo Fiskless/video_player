@@ -5,9 +5,10 @@
 видео на весь экран.
 Построен на базе библиотеки [Playable](https://wix.github.io/playable/).
 Для просмотра опубликованной версии нажмите [сюда](https://fiskless.github.io/video_player/).
+Для нормализации стилей используется [normalize.css](https://necolas.github.io/normalize.css/)
 Выглядит плеер следующим образом:
 
-![Image alt](https://github.com/Fiskless/video_player/blob/master/screenshots/player_screenshot.png)
+![Image alt](https://github.com/Fiskless/video_player/blob/master/screenshots/layout.png)
 
 ## Инструкция по запуску скриптов
 
