@@ -30,12 +30,21 @@
       padding: 9px;
 
     }
-    .video-player-progress-bar {
+    .player-viewing-panel {
       flex-grow:1;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      flex-direction: row;
+      display:flex;
+      margin-top: 12px;
+    }
+    .player-viewing-progressbar {
+      flex-grow:1
     }
 
 
   </style>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
   <div id="player" class="video-player">
@@ -53,7 +62,11 @@
       <button class="player-button mute js-mute-button" hidden>
         <i class="fa fa-volume-up" aria-hidden="true"></i>
       </button>
-      <div class="video-player-progress-bar"></div>
+      <div class="player-viewing-panel">
+        <div class="player-viewing-time js-current-time"></div>
+        <div class="player-viewing-progressbar"></div>
+        <div class="player-video-duration js-duration"></div>
+      </div>
       <button class="player-button fullscreen js-fullscreen-button">
         <i class="fa fa-expand" aria-hidden="true"></i>
       </button>
